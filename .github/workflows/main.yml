@@ -16,7 +16,7 @@ jobs:
       - name: 📂 Sync Files
         uses: SamKirkland/web-deploy@v1
         with:
-          target-server: https://www.current-work.com
+          target-server: current-work.com
           remote-user: dh_i9jjdg
           private-ssh-key: ${{ secrets.SSH_KEY }}
-          destination-path: /home/dh_i9jjdg/https://www.current-work.com/wp-content/themes/twentytwentyfive/
+          destination-path: /home/dh_i9jjdg/current-work.com/wp-content/themes/twentytwentyfive/
